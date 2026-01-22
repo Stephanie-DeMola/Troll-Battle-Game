@@ -1,0 +1,96 @@
+/*
+	Author: Stephanie DeMola
+	Date: 01/21/2026
+
+	JS Battle Game CSS Stylesheet
+
+font-family:"Eater", serif; (Main Title)
+font-family: "Irish Grover", system-ui; (Winning)
+font-family: "Barriecito", system-ui; (Button)
+font-family: "Creepster", system-ui; (Losing)
+
+*/
+
+
+
+body {
+	background-image: url("darkForest.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgb(12, 12, 12);
+
+	/* Use flex-box to show more of the forest background*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	
+	justify-content: flex-start;
+	padding-top: 10vh;
+
+	text-align: center;
+	min-height: 100vh;
+}
+
+
+
+h1 {
+	font-family: "Eater", serif;
+	font-size: 4em;
+	color: black;
+	text-shadow:  darkred 2px 4px 10px;
+	margin-top: 7%;
+}
+
+/* Continue Button */
+#button {
+	background-color: black;
+	color: darkred;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Barriecito", system-ui;
+	font-size: 2.5em;
+	box-shadow: black 2px 3px 1px;
+	cursor: pointer;
+	user-select: none;
+	box-shadow: darkred 7px 7px 16px;
+}
+
+
+/* Button Hover Effect */
+#button:hover {
+	background-color: black;
+	color: orangered;
+	box-shadow: orangered 7px 7px 16px;
+}
+
+
+/* Winner Message - To test put messege in the HTML victory */
+h2#victory {
+	font-family: "Irish Grover", system-ui; 
+	font-size: 3em;
+	color: blue;
+	text-shadow: darkred 3px 3px 1px, ghostwhite 2px 2px 10px;
+}
+
+
+/* Loserr Message - To test put messege in the HTML defeat */
+
+h2#defeat {
+	font-family: "Irish Grover", system-ui; 
+	font-size: 3em;
+	color: darkred;
+	text-shadow: black 3px 3px 1px, ghostwhite 2px 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
